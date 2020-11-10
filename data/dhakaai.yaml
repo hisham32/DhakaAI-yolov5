@@ -7,9 +7,9 @@
 
 
 # train and val data as 1) directory: path/images/, 2) file: path/images.txt, or 3) list: [path1/images/, path2/images/]
-train: /content/dhakaai/images/train/  # 118287 images
-val: /content/dhakaai/images/valid/  # 5000 images
-test: /content/dhakaai/images/test/  # 20288 of 40670 images, submit to https://dhaka-ai.com/
+train: /content/drive/My Drive/dhakaai/images/train/  # 118287 images
+val: /content/drive/My Drive/dhakaai/images/valid/  # 5000 images
+test: /content/drive/My Drive/dhakaai/images/test/  # 20288 of 40670 images, submit to https://dhaka-ai.com/
 
 # number of classes
 nc: 21
