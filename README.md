@@ -68,39 +68,6 @@ YOLOv5 may be run in any of the following up-to-date verified environments (with
 - **Docker Image** https://hub.docker.com/r/ultralytics/yolov5. See [Docker Quickstart Guide](https://github.com/ultralytics/yolov5/wiki/Docker-Quickstart) ![Docker Pulls](https://img.shields.io/docker/pulls/ultralytics/yolov5?logo=docker)
 
 
-## Inference
-
-detect.py runs inference on a variety of sources, downloading models automatically from the [latest YOLOv5 release](https://github.com/ultralytics/yolov5/releases) and saving results to `inference/output`.
-```bash
-$ python detect.py --source 0  # webcam
-                            file.jpg  # image 
-                            file.mp4  # video
-                            path/  # directory
-                            path/*.jpg  # glob
-                            rtsp://170.93.143.139/rtplive/470011e600ef003a004ee33696235daa  # rtsp stream
-                            rtmp://192.168.1.105/live/test  # rtmp stream
-                            http://112.50.243.8/PLTV/88888888/224/3221225900/1.m3u8  # http stream
-```
-
-To run inference on example images in `inference/images`:
-```bash
-$ python detect.py --source inference/images --weights yolov5s.pt --conf 0.25
-
-Namespace(agnostic_nms=False, augment=False, classes=None, conf_thres=0.25, device='', img_size=640, iou_thres=0.45, output='inference/output', save_conf=False, save_txt=False, source='inference/images', update=False, view_img=False, weights='yolov5s.pt')
-Using CUDA device0 _CudaDeviceProperties(name='Tesla V100-SXM2-16GB', total_memory=16160MB)
-
-Downloading https://github.com/ultralytics/yolov5/releases/download/v3.0/yolov5s.pt to yolov5s.pt... 100%|██████████████| 14.5M/14.5M [00:00<00:00, 21.3MB/s]
-
-Fusing layers... 
-Model Summary: 140 layers, 7.45958e+06 parameters, 0 gradients
-image 1/2 yolov5/inference/images/bus.jpg: 640x480 4 persons, 1 buss, 1 skateboards, Done. (0.013s)
-image 2/2 yolov5/inference/images/zidane.jpg: 384x640 2 persons, 2 ties, Done. (0.013s)
-Results saved to yolov5/inference/output
-Done. (0.124s)
-```
-<img src="https://user-images.githubusercontent.com/26833433/97107365-685a8d80-16c7-11eb-8c2e-83aac701d8b9.jpeg" width="500">  
-
-
 ## About Us
 
 Ultralytics is a U.S.-based particle physics and AI startup with over 6 years of expertise supporting government, academic and business clients. We offer a wide range of vision AI services, spanning from simple expert advice up to delivery of fully customized, end-to-end production solutions, including:
