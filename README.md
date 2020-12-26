@@ -1,4 +1,3 @@
-<a href="https://apps.apple.com/app/id1452689527" target="_blank">
 ![](DhakaAI.png)
 
 
