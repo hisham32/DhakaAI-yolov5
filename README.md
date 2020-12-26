@@ -39,16 +39,6 @@ YOLOv5 may be run in any of the following up-to-date verified environments (with
 - **Docker Image** https://hub.docker.com/r/ultralytics/yolov5. See [Docker Quickstart Guide](https://github.com/ultralytics/yolov5/wiki/Docker-Quickstart) ![Docker Pulls](https://img.shields.io/docker/pulls/ultralytics/yolov5?logo=docker)
 
 
-## About Us
-
-Ultralytics is a U.S.-based particle physics and AI startup with over 6 years of expertise supporting government, academic and business clients. We offer a wide range of vision AI services, spanning from simple expert advice up to delivery of fully customized, end-to-end production solutions, including:
-- **Cloud-based AI** systems operating on **hundreds of HD video streams in realtime.**
-- **Edge AI** integrated into custom iOS and Android apps for realtime **30 FPS video inference.**
-- **Custom data training**, hyperparameter evolution, and model exportation to any destination.
-
-For business inquiries and professional support requests please visit us at https://www.ultralytics.com. 
-
-
 ## Contact
 
 **Issues should be raised directly in the repository.** For business inquiries or professional support requests please visit https://www.ultralytics.com or email Glenn Jocher at glenn.jocher@ultralytics.com. 
