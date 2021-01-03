@@ -13,7 +13,7 @@ $ pip install -r requirements.txt
 ```
 
 
-## Tutorials
+## Related Tutorials
 
 * [Train Custom Data](https://github.com/ultralytics/yolov5/wiki/Train-Custom-Data) (🚀  recommended)
 * [Weights & Biases Logging](https://github.com/ultralytics/yolov5/issues/1289) (🚀  NEW)
