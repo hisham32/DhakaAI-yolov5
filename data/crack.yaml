@@ -12,12 +12,12 @@ val: /content/dhakaai/images/valid/  # 151 images
 test: /content/dhakaai/images/test/  # 193 images, submit to https://dhaka-ai.com/
 
 # number of classes
-nc: 18
+nc: 13
 
 # class names
-names: ["Alligator_Cracking", "path_hole", "Edge_Cracking", "Longitudinal_Cracking", "Patching_Utility_Cut", "Block_Cracking", 
-        "Transverse_Cracking", "Shoulder_Drop_Off", "Miscellanious_Crack", "Reflection_Cracking", "Lane_or_Shoulder_Drop_Off", 
-        "Bumps_and_Sags", "depression", "Manhole_Cover", "Slippage_cracking", "Weather_Raveling", "Bleeding", "Rutting"]
+names: ["Alligator_Cracking", "path_hole", "Edge_Cracking", "Longitudinal_Cracking", "Patching_Utility_Cut",
+        "Block_Cracking","Transverse_Cracking", "Shoulder_Drop_Off", "Miscellanious_Crack", "Reflection_Cracking",
+        "Manhole_Cover", "Slippage_cracking", "Weather_Raveling"]
 
 # Print classes
 # with open('data/dhakaai.yaml') as f:
