@@ -8,10 +8,6 @@ This repository contains the **9th place** (out of 241 teams) solution of the [D
 
 ## Inferences
 
-* [Train Custom Data](https://github.com/ultralytics/yolov5/wiki/Train-Custom-Data) (🚀  recommended)
-* [Weights & Biases Logging](https://github.com/ultralytics/yolov5/issues/1289) (🚀  NEW)
-* [Test-Time Augmentation (TTA)](https://github.com/ultralytics/yolov5/issues/303)
-* [Model Ensembling](https://github.com/ultralytics/yolov5/issues/318)
-* [Hyperparameter Evolution](https://github.com/ultralytics/yolov5/issues/607)
+![](inference.png)
 
 
